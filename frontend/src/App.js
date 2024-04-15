@@ -24,7 +24,7 @@ function App() {
 
     async function getTags() {
         var _tags = await fetch(
-            `http://0.0.0.0:8000/api/ner-tags?string=${value}`
+            `http://localhost:8000/api/ner-tags?string=${value}`
         ).then((res) => res.json());
         console.log(_tags);
         setTags(_tags);
