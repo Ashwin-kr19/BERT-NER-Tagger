@@ -23,4 +23,4 @@ app.include_router(router)
 
 @app.get("/")
 def server():
-    return JSONResponse({"ner-tag-api": {"version": "0.1.0"}})
+    return JSONResponse({"ner-tagger-api": {"version": "0.1.0"}})
