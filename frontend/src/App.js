@@ -16,6 +16,11 @@ const TAG_COLORS = {
     org: "#00ffa2",
     per: "#84d2ff",
     geo: "#ffc282",
+    tim: "#ff82e6",
+    art: "#ff8282",
+    eve: "#82ff82",
+    nat: "#8282ff",
+    gpe: "#ff82ff",
 };
 
 function App() {
