@@ -4,7 +4,7 @@ services:
     build:
       context: ./backend/
       dockerfile: ./Dockerfile
-    image: docker pull vsaravind01/bert-ner-tagger:0.1.0
+    image: vsaravind01/bert-ner-tagger:0.1.0
     restart: always
     ports:
       - "8000:8000"
@@ -15,7 +15,7 @@ services:
     build:
       context: ./frontend/
       dockerfile: ./Dockerfile
-    image: docker pull vsaravind01/bert-ner-tagger:frontend
+    image: vsaravind01/bert-ner-tagger:frontend
     restart: always
     ports:
       - "3000:3000"
